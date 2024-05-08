@@ -8,7 +8,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GuessTheNumberGame.Classes
 {
-    internal class Game
+    public class ConsoleGame : GeneralGame
     {
         private IInputReader inputReader;
         private IPrinter printer;
@@ -16,7 +16,7 @@ namespace GuessTheNumberGame.Classes
         private IValidator validator;
         private int numberToGuess;
 
-        public Game(IInputReader inputReader, IPrinter printer, IGameSettings settings, IValidator validator)
+        public ConsoleGame(IInputReader inputReader, IPrinter printer, IGameSettings settings, IValidator validator)
         {
             this.inputReader = inputReader;
             this.printer = printer;
@@ -24,33 +24,36 @@ namespace GuessTheNumberGame.Classes
             this.validator = validator;
         }
 
-        public void GameInit()
+        public override void GameInit()
         {
             Random random = new Random();
             numberToGuess = random.Next(settings.MinValue, settings.MaxValue + 1);
             printer.Print($"Загадано число от {settings.MinValue} до {settings.MaxValue}. Попробуйте угадать его за {settings.TryCount} попыток.");
         }
 
-        public void GameProcess()
+        public override void GameProcess()
         {
             int usedTryCount = 0;
             string? inputValue;
             ValidationResult validationResult = ValidationResult.NotValid;
-            GameResult gameResult = GameResult.Lose;
-
-            while ((usedTryCount<settings.TryCount)&&(validationResult!=ValidationResult.Equal))
+            GameResult gameResult = GameResult.Unknown;
+            
+            while ((usedTryCount < settings.TryCount)&&(gameResult == GameResult.Unknown))
             {
                 inputValue = inputReader.GetInputData();
                 validationResult = CheckUserInput(inputValue);
                 PrintValidationResult(validationResult);
-                if (validationResult==ValidationResult.Equal)
+                if (validationResult == ValidationResult.Equal)
                     gameResult = GameResult.Win;
                 usedTryCount++;
             }
 
+            if (gameResult != GameResult.Win)
+                gameResult = GameResult.Lose;
+
             PrintGameResult(gameResult);
         }
-
+        
         private ValidationResult CheckUserInput(string? userInput)
         {
             if (!validator.IsValid(userInput))
@@ -92,7 +95,7 @@ namespace GuessTheNumberGame.Classes
             switch (result)
             {
                 case GameResult.Win:
-                    printer.Print("Поздравляем! Вы угадали загаденное число!");
+                    printer.Print("Поздравляем! Вы угадали загаданное число!");
                     break;
                 case GameResult.Lose:
                     printer.Print($"К сожалению, попытки закончились. Было загадано число {numberToGuess}");

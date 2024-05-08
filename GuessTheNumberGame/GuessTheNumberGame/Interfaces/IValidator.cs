@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Interfaces
 {
-    internal interface IValidator
+    public interface IValidator
     {
         bool IsValid(string? data);
     }

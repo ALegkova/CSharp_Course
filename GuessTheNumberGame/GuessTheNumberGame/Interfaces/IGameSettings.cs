@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Interfaces
 {
-    internal interface IGameSettings
+    public interface IGameSettings
     {
-        int TryCount { get; set; }
-        int MinValue { get; set; }
-        int MaxValue { get; set; }
+        int TryCount { get; init; }
+        int MinValue { get; init; }
+        int MaxValue { get; init; }
     }
 }

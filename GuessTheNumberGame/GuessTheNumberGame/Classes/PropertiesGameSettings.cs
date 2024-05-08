@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Classes
 {
-    internal class PropertiesGameSettings : IGameSettings
+    public class PropertiesGameSettings : IGameSettings
     {        
-        public int TryCount { get; set; }
-        public int MinValue { get; set; }
-        public int MaxValue { get; set; }
+        public int TryCount { get; init; }
+        public int MinValue { get; init; }
+        public int MaxValue { get; init; }
 
         public PropertiesGameSettings()
         {            

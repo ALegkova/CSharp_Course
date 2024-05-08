@@ -9,9 +9,9 @@ namespace GuessTheNumberGame.Classes
 {
     internal class SimpleGameSettings : IGameSettings
     {
-        public int TryCount { get; set; }
-        public int MinValue { get; set; }
-        public int MaxValue { get; set; }
+        public int TryCount { get; init; }
+        public int MinValue { get; init; }
+        public int MaxValue { get; init; }
 
         public SimpleGameSettings() {
             this.MinValue = 0;

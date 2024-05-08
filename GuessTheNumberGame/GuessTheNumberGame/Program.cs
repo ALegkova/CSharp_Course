@@ -12,9 +12,8 @@ public class Program
         IGameSettings settings = new PropertiesGameSettings();
         IValidator validator = new IntValidator();
 
-        Game game = new Game(inputReader, printer, settings, validator);
+        GeneralGame game = new ConsoleGame(inputReader, printer, settings, validator);
 
-        game.GameInit();
-        game.GameProcess();
+        game.Run();
     }
 }

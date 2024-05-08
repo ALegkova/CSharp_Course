@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Classes
 {
-    internal class ConsolePrinter : IPrinter
+    public class ConsolePrinter : IPrinter
     {
         public void Print(string message) 
         {

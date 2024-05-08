@@ -9,6 +9,7 @@ namespace GuessTheNumberGame.Classes
     public enum GameResult
     {
         Win,
-        Lose
+        Lose,
+        Unknown
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Classes
 {
-    internal class ConsoleInputReader : IInputReader
+    public class ConsoleInputReader : IInputReader
     {
         public string? GetInputData()
         {

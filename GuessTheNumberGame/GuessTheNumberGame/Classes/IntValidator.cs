@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumberGame.Classes
 {
-    internal class IntValidator : IValidator
+    public class IntValidator : IValidator
     {
         public bool IsValid(string? data)
         {
