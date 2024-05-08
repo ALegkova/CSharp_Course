@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\gameresultenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\gameresultenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\interfaces\\ivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\interfaces\\ivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\validationresultenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\validationresultenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\intvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\intvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\simplegamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\simplegamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\classes\\propertiesgamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\classes\\propertiesgamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\interfaces\\igamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\interfaces\\igamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\guessthenumbergame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\guessthenumbergame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|c:\\repository\\csharp_course\\guessthenumbergame\\guessthenumbergame\\guessthenumbergame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{33573FE2-DF7D-4ED0-BCC1-1D40E9A0F8AA}|GuessTheNumberGame\\GuessTheNumberGame.csproj|solutionrelative:guessthenumbergame\\guessthenumbergame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntValidator.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\IntValidator.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\IntValidator.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\IntValidator.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\IntValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:57:59.286Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameResultEnum.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\GameResultEnum.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\GameResultEnum.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\GameResultEnum.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\GameResultEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:51:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IValidator.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Interfaces\\IValidator.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Interfaces\\IValidator.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Interfaces\\IValidator.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Interfaces\\IValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:44:46.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationResultEnum.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\ValidationResultEnum.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\ValidationResultEnum.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\ValidationResultEnum.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\ValidationResultEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:13:19.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\Game.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\Game.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\Game.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:04:01.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Program.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Program.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Program.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:22:03.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGameSettings.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Interfaces\\IGameSettings.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Interfaces\\IGameSettings.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Interfaces\\IGameSettings.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Interfaces\\IGameSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T08:43:42.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimpleGameSettings.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\SimpleGameSettings.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\SimpleGameSettings.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\SimpleGameSettings.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\SimpleGameSettings.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:19:02.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertiesGameSettings.cs",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\PropertiesGameSettings.cs",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\Classes\\PropertiesGameSettings.cs",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\Classes\\PropertiesGameSettings.cs",
+              "RelativeToolTip": "GuessTheNumberGame\\Classes\\PropertiesGameSettings.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:57:14.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GuessTheNumberGame",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "RelativeToolTip": "GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T08:23:25.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GuessTheNumberGame",
+              "DocumentMoniker": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "RelativeDocumentMoniker": "GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "ToolTip": "C:\\Repository\\CSharp_Course\\GuessTheNumberGame\\GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "RelativeToolTip": "GuessTheNumberGame\\GuessTheNumberGame.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T09:34:08.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
