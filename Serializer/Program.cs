@@ -13,7 +13,7 @@ namespace Serializer
         static void Main(string[] args)
         {
             F testClass = F.GetTestClass();
-            int iterationCount = 1000;
+            int iterationCount = 10000;
 
             TestSerializer testCSVSerializer = new TestSerializer(iterationCount, new CSVSerializer(",",Environment.NewLine));            
             Console.WriteLine(testCSVSerializer.TestRunSerializing(testClass));

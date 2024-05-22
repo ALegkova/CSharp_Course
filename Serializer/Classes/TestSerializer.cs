@@ -39,7 +39,8 @@ namespace Serializer.Classes
         /// <returns>string</returns>
         public string TestRunSerializing<T>(T obj) where T : new()
         {
-            string outinfo = $"Количество итераций: {iterations}\r\n";
+            string outinfo = $"Среда разработки: {Environment.Version}\r\n";
+            outinfo += $"Количество итераций: {iterations}\r\n";
             Stopwatch stopwatch = new Stopwatch();
             try
             {
