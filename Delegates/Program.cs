@@ -16,8 +16,8 @@ namespace Delegates
             Console.WriteLine();
 
             // Поиск файлов
-            WorkFileFounder workFileFounder = new WorkFileFounder();
-            workFileFounder.Run(AppDomain.CurrentDomain.BaseDirectory);
+            FileFounderService fileFounderService = new FileFounderService();
+            fileFounderService.Run(AppDomain.CurrentDomain.BaseDirectory);
 
             Console.ReadKey();
         }

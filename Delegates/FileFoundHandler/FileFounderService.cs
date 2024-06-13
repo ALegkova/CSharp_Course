@@ -1,6 +1,6 @@
 ﻿namespace Delegates.FileFoundHandler
 {
-    public class WorkFileFounder
+    public class FileFounderService
     {        
         FileFounder fileFounder;
 
@@ -10,9 +10,9 @@
             Console.WriteLine("Для отмены поиска нажмите Q");
 
             fileFounder = new FileFounder();
-            FileFounderSubscribe();
+            Subscribe();
             fileFounder.FileSearch(searchDirectory);
-            FileFounderUnsubscribe();
+            Unsubscribe();
 
             Console.WriteLine("Поиск завершен");
         }
@@ -24,18 +24,18 @@
 
             if (Console.KeyAvailable && Console.ReadKey().Key == ConsoleKey.Q)
             {
-                FileFounderUnsubscribe();
+                Unsubscribe();
                 Console.WriteLine("Поиск остановлен");
             }
 
         }
 
-        private void FileFounderSubscribe()
+        private void Subscribe()
         {
             fileFounder.FileFound += DisplayMessage;
         }
 
-        private void FileFounderUnsubscribe()
+        private void Unsubscribe()
         {
             fileFounder.FileFound -= DisplayMessage;
         }
