@@ -16,11 +16,11 @@ namespace Delegates
             //Прочитать все файлы последовательно
             //taskFileFounder.FileFounderRun(searchDirectory);
             //Прочитать три файла последовательно
-            //testFileFounder.FileFounderRun(searchDirectory,3);
+            taskFileFounder.FileFounderRun(searchDirectory,3);
             //Прочитать все файлы параллельно
             //await taskFileFounder.FileFounderRunAsync(searchDirectory);
             //Прочитать 3 файла параллельно
-            await taskFileFounder.FileFounderRunAsync(searchDirectory, 3);
+            //await taskFileFounder.FileFounderRunAsync(searchDirectory, 3);
         }       
     }
 }
