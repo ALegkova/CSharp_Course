@@ -20,8 +20,7 @@ namespace TaskFileReader
         {
             List<string> fileList = fileFounder.GetFiles(searchDirectory);
             int fileCount = fileList.Count;
-
-            FileFounderRun(searchDirectory, fileCount);
+            ProcessFileList(fileList, fileCount);
         }
 
         public void FileFounderRun(string searchDirectory, int fileCount)
@@ -31,7 +30,11 @@ namespace TaskFileReader
             {
                 fileCount = fileList.Count;
             }
+            ProcessFileList(fileList, fileCount);           
+        }
 
+        private void ProcessFileList(List<string> fileList, int fileCount)
+        {
             var stopwatch = Stopwatch.StartNew();
 
             for (int i = 0; i < fileCount; i++)
@@ -44,22 +47,24 @@ namespace TaskFileReader
 
         public async Task FileFounderRunAsync(string searchDirectory)
         {       
-            List<string> fileList = fileFounder.GetFiles(searchDirectory);
-            List<Task<long>> tasks = new List<Task<long>>();
+            List<string> fileList = fileFounder.GetFiles(searchDirectory);            
             int fileCount = fileList.Count();
-            await FileFounderRunAsync(searchDirectory, fileCount);
+            await ProcessFileListAsync(fileList, fileCount);
         }
 
         public async Task FileFounderRunAsync(string searchDirectory, int fileCount)
-        {      
+        {
             List<string> fileList = fileFounder.GetFiles(searchDirectory);
-            List<Task<long>> tasks = new List<Task<long>>();
-            
             if (fileCount > fileList.Count)
             {
                 fileCount = fileList.Count;
             }
+            await ProcessFileListAsync(fileList, fileCount);
+        }
 
+        private async Task ProcessFileListAsync(List<string> fileList, int fileCount)
+        {
+            List<Task<long>> tasks = new List<Task<long>>();
             var stopwatch = Stopwatch.StartNew();
 
             await Task.Run(() =>
@@ -70,10 +75,11 @@ namespace TaskFileReader
                 }
             }).ConfigureAwait(false);               
 
-            await Task.WhenAll(tasks).ConfigureAwait(false);
+            await Task.WhenAll(tasks);
 
             stopwatch.Stop();
             Console.WriteLine($"выполнено за {stopwatch.ElapsedMilliseconds} миллисекунд \n");
+
         }
 
 
