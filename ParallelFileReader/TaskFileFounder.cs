@@ -60,15 +60,15 @@ namespace TaskFileReader
                 fileCount = fileList.Count;
             }
 
+            var stopwatch = Stopwatch.StartNew();
+
             await Task.Run(() =>
             {
                 for (int i = 0; i < fileCount; i++)
                 {
                     tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));
                 }
-            }).ConfigureAwait(false);           
-
-            var stopwatch = Stopwatch.StartNew();
+            }).ConfigureAwait(false);               
 
             await Task.WhenAll(tasks).ConfigureAwait(false);
 
