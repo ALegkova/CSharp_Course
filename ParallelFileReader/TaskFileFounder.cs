@@ -55,11 +55,14 @@ namespace TaskFileReader
             List<Task<long>> tasks = new List<Task<long>>();
 
             var stopwatch = Stopwatch.StartNew();
-            
-            for (int i = 0; i < fileList.Count; i++)                
-            { 
-                tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));             
-            }            
+
+            await Task.Run(() =>
+            {
+                for (int i = 0; i < fileList.Count; i++)
+                {
+                    tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));
+                }
+            }).ConfigureAwait(false);
 
             await Task.WhenAll(tasks);
 
@@ -77,13 +80,17 @@ namespace TaskFileReader
                 fileCount = fileList.Count;
             }
 
+            await Task.Run(() =>
+            {
+                for (int i = 0; i < fileCount; i++)
+                {
+                    tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));
+                }
+            }).ConfigureAwait(false);           
+
             var stopwatch = Stopwatch.StartNew();
 
-            for (int i = 0; i < fileCount; i++)
-            {
-                tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));
-            }
-            await Task.WhenAll(tasks);
+            await Task.WhenAll(tasks).ConfigureAwait(false);
 
             stopwatch.Stop();
             Console.WriteLine($"выполнено за {stopwatch.ElapsedMilliseconds} миллисекунд \n");

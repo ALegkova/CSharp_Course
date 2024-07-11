@@ -14,7 +14,7 @@ namespace Delegates
             FileFounder fileFounder = new FileFounder(logger);
             TaskFileFounder taskFileFounder = new TaskFileFounder(fileFounder);
             //Прочитать все файлы последовательно
-            taskFileFounder.FileFounderRun(searchDirectory);
+            //taskFileFounder.FileFounderRun(searchDirectory);
             //Прочитать три файла последовательно
             //testFileFounder.FileFounderRun(searchDirectory,3);
             //Прочитать все файлы параллельно
