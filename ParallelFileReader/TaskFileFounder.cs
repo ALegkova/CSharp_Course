@@ -19,16 +19,9 @@ namespace TaskFileReader
         public void FileFounderRun(string searchDirectory)
         {
             List<string> fileList = fileFounder.GetFiles(searchDirectory);
+            int fileCount = fileList.Count;
 
-            var stopwatch = Stopwatch.StartNew();
-
-            foreach (string file in fileList)
-            {
-                long spaceCount = fileFounder.CalcSpacesInFile(file);                
-            }
-
-            stopwatch.Stop();
-            Console.WriteLine($"выполнено за {stopwatch.ElapsedMilliseconds} миллисекунд \n");
+            FileFounderRun(searchDirectory, fileCount);
         }
 
         public void FileFounderRun(string searchDirectory, int fileCount)
@@ -53,21 +46,8 @@ namespace TaskFileReader
         {       
             List<string> fileList = fileFounder.GetFiles(searchDirectory);
             List<Task<long>> tasks = new List<Task<long>>();
-
-            var stopwatch = Stopwatch.StartNew();
-
-            await Task.Run(() =>
-            {
-                for (int i = 0; i < fileList.Count; i++)
-                {
-                    tasks.Add(fileFounder.CalcSpacesInFileAsync(fileList[i]));
-                }
-            }).ConfigureAwait(false);
-
-            await Task.WhenAll(tasks);
-
-            stopwatch.Stop();
-            Console.WriteLine($"выполнено за {stopwatch.ElapsedMilliseconds} миллисекунд \n");
+            int fileCount = fileList.Count();
+            await FileFounderRunAsync(searchDirectory, fileCount);
         }
 
         public async Task FileFounderRunAsync(string searchDirectory, int fileCount)
