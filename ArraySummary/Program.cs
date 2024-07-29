@@ -8,13 +8,13 @@ namespace ArraySummary
     {
         static void Main(string[] args)
         {
-            int elementCount = 1_000_000_000;
+            int elementCount = 100_000_000;
             int threadCount = 5;
 
             int[] arr = new int[elementCount];           
             for (int i = 0; i < arr.Length; i++)
             {
-                arr[i] = 2;
+                arr[i] = 1;
             }
 
             IArraySummary<int, Int64> intArraySummary = new IntArraySummary();

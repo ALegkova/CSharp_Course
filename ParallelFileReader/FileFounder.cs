@@ -39,7 +39,7 @@ namespace TaskFileReader
         {
             string fileText = await File.ReadAllTextAsync(filePath);
             long spaceCount = fileText.LongCount(Char.IsWhiteSpace);
-            logger.Log($"Файл: {filePath}, количество пробелов: {spaceCount} \n");
+            //logger.Log($"Файл: {filePath}, количество пробелов: {spaceCount} \n");
             return spaceCount;
         }
 
@@ -52,7 +52,7 @@ namespace TaskFileReader
         {
             string fileText = File.ReadAllText(filePath);
             long spaceCount = fileText.LongCount(Char.IsWhiteSpace);
-            logger.Log($"Файл: {filePath}, количество пробелов: {spaceCount} \n");
+            //logger.Log($"Файл: {filePath}, количество пробелов: {spaceCount} \n");
             return spaceCount;
         }
 

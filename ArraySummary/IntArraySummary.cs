@@ -16,8 +16,7 @@ namespace ArraySummary
         /// <param name="arr">Массив интов</param>
         /// <returns>long</returns>
         public Int64 SerialSum(int[] arr)
-        {
-            //Int64 sum = arr.Sum();
+        {            
             Int64 sum = 0;
             for (int i = 0; i < arr.Length; i++)
             {
@@ -35,8 +34,7 @@ namespace ArraySummary
         public Int64 ParallelLINQSum(int[] arr, int maxDegreeOfParallelism)
         {
             //Int64 sum = arr.AsParallel().WithDegreeOfParallelism(maxDegreeOfParallelism).Sum(x => (Int64)x);
-            Int64 sum = arr.AsParallel().WithDegreeOfParallelism(maxDegreeOfParallelism).Sum();
-
+            Int64 sum = arr.AsParallel().WithDegreeOfParallelism(maxDegreeOfParallelism).Sum();            
             return sum;
         }
 
